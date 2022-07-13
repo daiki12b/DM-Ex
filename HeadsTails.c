@@ -7,6 +7,12 @@ int main(){
     int a=0;
     int b=0;
     int result;
+    char name[100];
+
+    printf("Who are you?\n");
+    printf("> ");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
 
     printf("Tossing a coin...\n");
 
